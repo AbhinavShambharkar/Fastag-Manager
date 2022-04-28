@@ -1,0 +1,102 @@
+body{
+    font-family: 'Roboto' ,sans-serif;
+}
+*{
+    margin : 0;
+    padding : 0;
+    list-style: none;
+    text-decoration: none;
+}
+.sidebar{
+    position: fixed;
+    left:0;
+    width: 300px;
+    height: 100%;
+    background: #042331;
+}
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: #063143;
+    user-select: none;
+}
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    transition: .4s;
+}
+ul li:hover a{
+    padding-left: 50px;
+}
+.sidebar ul a i{
+    margin-right: 16px;
+}
+section{
+    margin-left: 300px;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+#travel_section h1{
+    padding-left: 380px;
+    padding-top: 30px;
+    text-decoration-line: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: #000;
+    text-decoration-thickness: 2px;
+}
+.travel-table{
+    border-collapse: collapse;
+    margin:10px 10px ;
+    margin-top: 30px;
+    font-size: 20px;
+    min-width: 950px;
+    width:500px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15) ;
+    
+}
+.travel-table th,
+.travel-table td{
+    padding:9px 5px;
+    text-align: center;
+    
+}
+.travel-table th{
+    background-color: #2980b9;
+}
+
+
+.travel-table tbody tr{
+    
+    text-align: center;
+    color:black;
+    font-size: 20px;
+    padding-top: 40px;
+    font-weight: 500;
+}
+
+.travel-table tbody tr:nth-child(even) {
+    background-color: #e8e8e8;
+}
+.travel-table tbody tr a{
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+

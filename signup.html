@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | MyFastag.com</title>
+    <link rel="stylesheet" href="sign.css">
+</head>
+<body>
+
+    <div class="container">
+      <img src="login.jpg">
+      <div class="title">Registration</div><br>
+      <p>Please fill in this form to create an account.</p>
+      <hr><br>
+      <form action="register.php" method="post" enctype='multipart/form-data'>
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" name="fullname" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">Email Id</span>
+            <input type="email" placeholder="Enter your Email" name="email" required >
+          </div>
+
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="number" placeholder="Enter your Number" name="phonenumber" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">State</span>
+            <input type="text" placeholder="Enter state" name="state" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">Address</span>
+            <input type="text" placeholder="Enter your Address" name="Address" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">Pin code</span>
+            <input type="text" placeholder="Enter Area Pin code" name="pincode" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">NPCI Vehicle class</span>
+            <input type="text" placeholder="Enter NPCI Vehicle class" name="npci" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">Vehicle Type</span>
+            <input type="text" placeholder="Enter Vehicle type" name="vtype" required>
+          </div>
+
+
+        </div>
+
+        <h3>Upload documents : </h3>
+        <hr>
+
+        <div class="documents">
+          <div class="input-box1">
+            <span class="details">Aadhar Card</span>
+            <input type="file" class="custom-file-input" placeholder="Enter your Aadhar card" name="aadhar" required>
+          </div>
+
+          <div class="input-box1">
+            <span class="details">Photo</span>
+            <input type="file" class="custom-file-input" placeholder="Enter your passport size photo" name="photo" required >
+          </div>
+
+          <div class="input-box1">
+            <span class="details">Driving License</span>
+            <input type="file" class="custom-file-input" placeholder="Enter your Driving License" name="license" required >
+          </div>
+
+          <div class="input-box1">
+            <span class="details">Registration Certificate</span>
+            <input type="file" class="custom-file-input" placeholder="Enter RC" name="rc" required>
+          </div>
+        </div>
+
+        <h3>Create Password : </h3>
+        <hr>
+
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Password </span>
+            <input type="password" placeholder="Enter Password" name="password" required>
+          </div>
+
+          <div class="input-box">
+            <span class="details">Re-Enter Password </span>
+            <input type="password" placeholder="Confirm Password" name="psw-repeat" required>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Register" name="login">
+        </div>
+      </form>
+    </div>
+</body>
+</html>

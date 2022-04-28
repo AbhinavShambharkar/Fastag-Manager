@@ -1,0 +1,50 @@
+.otp-container{
+    display: flex;
+    
+}
+.otp-confirm{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 400px;
+    height: 400px;
+}
+.otp-confirm p{
+    margin-top: 80px;
+    margin-left: 40px;
+    font-size: 1.5rem;
+    color: darkgreen;
+}
+.otp-confirm h1{
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+.otp-confirm input{
+    height:35px;
+    width: 70%;
+    outline: none;
+    border-radius: 5px;
+    border : 1px solid #ccc;
+    padding-left: 25px;
+    margin-left: 45px;
+    font-size: 16px;
+    background: transparent;
+    color:black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.otp-confirm .verify button{
+    height : 100%;
+    width : 60%;
+    outline: none;
+    color:#fff;
+    border : none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background-color : green;
+    padding: 10px;
+    margin-left: 80px;
+}

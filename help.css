@@ -1,0 +1,77 @@
+body{
+    font-family: 'Roboto' ,sans-serif;
+}
+*{
+    margin : 0;
+    padding : 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar{
+    position: fixed;
+    left:0;
+    width: 300px;
+    height: 100%;
+    background: #042331;
+}
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: #063143;
+    user-select: none;
+}
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    transition: .4s;
+}
+ul li:hover a{
+    padding-left: 50px;
+}
+.sidebar ul a i{
+    margin-right: 16px;
+}
+section{
+    padding-top: 80px;
+}
+.box{
+    box-shadow: 0 0 20px rgba(0,0,0,0.15) ;
+    width: 700px;
+    height: 400px;
+    margin-left: 450px;
+    
+}
+.box h1{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 180px;
+    padding-top: 50px;
+    font-size: 35px;
+    color: #496bf1;
+}
+.box img{
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.box .contact{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.box .contact .content {
+    margin-left: 40px;
+}
+.box .contact .content h3{
+    margin-left: 30px;
+}

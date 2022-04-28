@@ -1,0 +1,98 @@
+body{
+    font-family: 'Roboto' ,sans-serif;
+}
+*{
+    margin : 0;
+    padding : 0;
+    list-style: none;
+    text-decoration: none;
+}
+.sidebar{
+    position: fixed;
+    left:0;
+    width: 300px;
+    height: 100%;
+    background: #042331;
+}
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: #063143;
+    user-select: none;
+}
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    transition: .4s;  
+}
+/*ul li:hover a{
+    padding-left: 50px;
+}*/
+.sidebar ul a i{
+    margin-right: 16px;
+}
+
+
+.recharge{
+    margin-left: 480px;
+    
+}
+.recharge .box{
+    display: flex;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15) ; 
+    width: 550px; 
+    padding: 20px; 
+    height: 60px; 
+    margin-top: -30px;
+
+}
+.recharge .box h3{
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.recharge .box input{
+    margin-left: 30px;
+    border: none;
+    font-size: 20px;
+    width: 100px;
+    margin-top: 5px;
+}
+.recharge .box .verify button{
+    height : 70%;
+    width : 200px;
+    outline: none;
+    color:#fff;
+    border : none;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color : blue;
+    margin-left: 160px;
+    margin-top: 10px;
+    opacity: 0.7;
+
+
+}
+.recharge .box .verify button:hover{
+    background: transparent;
+    border: 2px solid blue;
+    color: blue;
+    cursor: pointer;
+}
+.recharge .box input:focus{
+    outline: none;
+}
+.recharge p{
+    padding: 20px;
+}

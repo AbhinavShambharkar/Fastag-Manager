@@ -1,0 +1,56 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height:100vh;
+    padding: 10px;
+    
+}
+.otp-container{
+    background: #fff;
+    padding: 25px 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    margin-left: 160px;
+    margin-top: 100px;
+    width: 400px;
+    height: 400px;
+}
+.otp-confirm h1{
+    font-size: 30px;
+    justify-content: center;
+}
+.otp-confirm p{
+    font-size: 25px;
+    color : green;
+}
+.otp-confirm input{
+    height:45px;
+    width:100%;
+    outline: none;
+    border-radius: 15px;
+    border : 1px solid #ccc;
+    padding-left: 25px;
+    font-size: 16px;
+}
+.otp-confirm .verify button{
+    height : 200%;
+    width : 100%;
+    outline: none;
+    color:#fff;
+    border : none;
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    background-color : green;
+}
+.image img{
+    margin-left: 120px;
+    width: 450px;
+    height: 520px;
+    margin-top: 80px;
+}

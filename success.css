@@ -1,0 +1,30 @@
+.main{
+    width: 400px;
+    height: 400px;
+    margin-left: 430px;
+    margin-top: 70px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.main .pass img{
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.main .pass{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.main .pass .verify button{
+    height : 100%;
+    width : 60%;
+    outline: none;
+    color:#fff;
+    border : none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background-color : green;
+    padding: 10px;
+    margin-left: 70px;
+    margin-top: 20px;
+}

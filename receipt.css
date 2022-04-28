@@ -1,0 +1,55 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+.receipt{
+    margin-left: 400px;
+    margin-top: 50px;
+    height: 470px;
+    width: 420px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.receipt .logo img{
+    height: 120px;
+    width: 180px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+hr {
+    border:none;
+    border-top:2px dashed #f00;
+    color:#fff;
+    background-color:#fff;
+    height:1px;
+    width:350px;
+    margin-left: 30px;
+  }
+
+.details .receipt_table{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.details .receipt_table td{
+    padding-bottom: 15px;
+    
+}
+.details ul {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.details ul  li{
+    font-weight: bold;
+    font-size: 22px;
+    list-style-type:none;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.footer{
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}

@@ -1,0 +1,55 @@
+.main{
+    display: flex;
+}
+.main .image img{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.main .pass{
+    margin-top: 120px;
+    background-color: #fff;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 350px;
+}
+.main .pass h3{
+    font-size: 20px;
+    text-align: center;
+    color: #496bf1;
+}
+.main p{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.5rem;
+    color: darkgreen;
+    text-align: center;
+}
+.main .pass input{
+    height:35px;
+    width: 70%;
+    outline: none;
+    border-radius: 5px;
+    border : 1px solid #ccc;
+    padding-left: 25px;
+    margin-left: 45px;
+    font-size: 16px;
+    background: transparent;
+    color:black;
+}
+
+.pass .verify button{
+    height : 100%;
+    width : 60%;
+    outline: none;
+    color:#fff;
+    border : none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background-color : green;
+    padding: 10px;
+    margin-left: 70px;
+    margin-top: 20px;
+}

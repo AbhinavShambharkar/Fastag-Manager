@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Change Password</title>
+    <link rel="stylesheet" href="reenter.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="image">
+            <img src="otpimg.jpg" alt="">
+        </div>
+        <div class="pass">
+            <form action="reenter.php" method="post">
+                <p>Check your registered email id for OTP !!!!</p>
+                <h3>Enter OTP</h3>
+                <input type="text" placeholder="otp" name="otp" >
+
+                <p>Enter New Password</p>
+                <input type="text" placeholder="Enter new password" name="newpass" >
+                <div class="verify">
+                    <button type="submit" class="verifybtn" name="changepass">Change Password</button>
+                </div> 
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
